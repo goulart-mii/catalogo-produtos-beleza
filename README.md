@@ -14,3 +14,11 @@ Trata-se de um trabalho acadêmico que tem como objetivo desenvolver a especific
 - Cadastro de produtos.
 - Edição de produtos cadastrados.
 - Exclusão de produtos cadastrados.
+
+## Objetivo
+
+Organizar e facilitar a consulta aos produtos de beleza, permitindo a visualização e localização dos itens disponíveis.
+
+## Equipe
+
+- Camily Vitória de Souza Goulart – Desenvolvimento individual.
