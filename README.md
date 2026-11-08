@@ -42,7 +42,7 @@ O sistema é composto por quatro blocos principais:
 - Catálogo de produtos disponíveis.
 
 ### Página de cadastro de produtos
-- Formulário de cadastro;
+- Formulario de cadastro;
 - Campos de nome, preço, categoria, descrição, estoque e imagem;
 - Botão para salvar o cadastro.
 
