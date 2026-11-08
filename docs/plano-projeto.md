@@ -8,7 +8,7 @@ Camily Vitória de Souza Goulart – Desenvolvimento individual do projeto.
 
 VS Code, HTML, CSS, PHP, MySQL, XAMPP e GitHub.
 
-## Estratégia de acompanhamento
+## Acompanhamento
 
 Utilizar o GitHub para organizar e acompanhar as atividades do projeto, definir prazos para cada etapa, testar as funcionalidades após o desenvolvimento e registrar as alterações realizadas no repositório.
 
