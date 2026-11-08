@@ -48,10 +48,12 @@ O sistema é composto por quatro blocos principais:
 
 ## Diagramas UML
 
-- Diagrama de Casos de Uso;
-- Diagrama de Classes.
+- [Diagrama de Casos de Uso](documentos/Casos%20de%20Uso.png)
+- [Diagrama de Classes](documentos/Diagrama%20de%20Classes.png)
 
-## Plano do Projeto
+## Plano detalhado
+
+- [Plano do Projeto](documentos/plano-projeto.md)
 
 O desenvolvimento será realizado individualmente, utilizando VS Code, HTML, CSS, PHP, MySQL, XAMPP e GitHub.
 
