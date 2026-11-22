@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="catalogo-oo-01" name="Diagrama de Classes">
+    <mxGraphModel dx="916" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="827" width="1169" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#151515;strokeColor=#FFFFFF;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=10;fontSize=14;shadow=0;" value="&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:center;&quot;&gt;&lt;b style=&quot;font-size:16px;&quot;&gt;ADMINISTRADOR&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #ffffff;&quot;&gt;&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:left;padding-left:14px;font-size:13px;&quot;&gt;id&lt;br&gt;nome&lt;br&gt;email&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #ffffff;&quot;&gt;&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:left;padding-left:14px;font-size:13px;&quot;&gt;cadastrarProduto()&lt;br&gt;editarProduto()&lt;br&gt;excluirProduto()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="240" x="70" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="produto" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#151515;strokeColor=#FFFFFF;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=10;fontSize=14;shadow=0;" value="&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:center;&quot;&gt;&lt;b style=&quot;font-size:16px;&quot;&gt;PRODUTO&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #ffffff;&quot;&gt;&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:left;padding-left:14px;font-size:13px;&quot;&gt;id&lt;br&gt;nome&lt;br&gt;preço&lt;br&gt;descrição&lt;br&gt;estoque&lt;br&gt;imagem&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #ffffff;&quot;&gt;&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:left;padding-left:14px;font-size:13px;&quot;&gt;consultarDetalhes()&lt;br&gt;atualizarDados()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="270" x="430" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="categoria" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#151515;strokeColor=#FFFFFF;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=10;fontSize=14;shadow=0;" value="&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:center;&quot;&gt;&lt;b style=&quot;font-size:16px;&quot;&gt;CATEGORIA&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #ffffff;&quot;&gt;&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:left;padding-left:14px;font-size:13px;&quot;&gt;id&lt;br&gt;nome&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #ffffff;&quot;&gt;&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:left;padding-left:14px;font-size:13px;&quot;&gt;listarProdutos()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="230" x="830" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cliente" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#151515;strokeColor=#FFFFFF;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=10;fontSize=14;shadow=0;" value="&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:center;&quot;&gt;&lt;b style=&quot;font-size:16px;&quot;&gt;CLIENTE&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #ffffff;&quot;&gt;&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:left;padding-left:14px;font-size:13px;&quot;&gt;id&lt;br&gt;nome&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #ffffff;&quot;&gt;&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:left;padding-left:14px;font-size:13px;&quot;&gt;consultarCatalogo()&lt;br&gt;localizarProduto()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="240" x="70" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="catalogo" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#151515;strokeColor=#FFFFFF;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=10;fontSize=14;shadow=0;" value="&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:center;&quot;&gt;&lt;b style=&quot;font-size:16px;&quot;&gt;CATALOGO&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #ffffff;&quot;&gt;&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:left;padding-left:14px;font-size:13px;&quot;&gt;produtos&lt;br&gt;categorias&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #ffffff;&quot;&gt;&lt;div style=&quot;font-family:Arial;color:#ffffff;text-align:left;padding-left:14px;font-size:13px;&quot;&gt;listarProdutos()&lt;br&gt;buscarPorNome()&lt;br&gt;buscarPorCategoria()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="300" x="470" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_prod" edge="1" parent="1" source="admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=1.5;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;" target="produto" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_client_catalog" edge="1" parent="1" source="cliente" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=1.5;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;" target="catalogo" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_prod_cat" edge="1" parent="1" source="produto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=1.5;endArrow=none;startArrow=none;" target="categoria" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_catalog_prod" edge="1" parent="1" source="catalogo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=1.5;endArrow=none;startArrow=none;" target="produto" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="390" />
+              <mxPoint x="565" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_catalog_cat" edge="1" parent="1" source="catalogo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=1.5;endArrow=none;startArrow=none;" target="categoria" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="390" />
+              <mxPoint x="945" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_prod_cat_products" parent="1" style="text;html=1;strokeColor=light-dark(transparent,#FFFFFF);fillColor=light-dark(transparent,#FFFFFF);fontColor=#FFFFFF;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;resizable=0;" value="0..*" vertex="1">
+          <mxGeometry height="24" width="48" x="690" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="m_prod_cat_category" parent="1" style="text;html=1;strokeColor=none;fillColor=light-dark(transparent,#FFFFFF);fontColor=#FFFFFF;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;resizable=0;" value="1" vertex="1">
+          <mxGeometry height="24" width="25" x="800" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="m_catprod_many" parent="1" style="text;html=1;strokeColor=none;fillColor=light-dark(transparent,#FFFFFF);fontColor=#FFFFFF;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;resizable=0;" value="0..*" vertex="1">
+          <mxGeometry height="24" width="48" x="535" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="m_catprod_one" parent="1" style="text;html=1;strokeColor=none;fillColor=light-dark(transparent,#FFFFFF);fontColor=#FFFFFF;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;resizable=0;" value="1" vertex="1">
+          <mxGeometry height="24" width="25" x="570" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="m_catcat_many" parent="1" style="text;html=1;strokeColor=none;fillColor=light-dark(transparent,#FFFFFF);fontColor=#FFFFFF;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;resizable=0;" value="0..*" vertex="1">
+          <mxGeometry height="24" width="48" x="870" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="m_catcat_one" parent="1" style="text;html=1;strokeColor=none;fillColor=light-dark(transparent,#FFFFFF);fontColor=#FFFFFF;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;resizable=0;" value="1" vertex="1">
+          <mxGeometry height="24" width="25" x="745" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="fxGCELUNRGaq_iS7MBZG-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#000000);" value="Gerencia" vertex="1">
+          <mxGeometry height="25" width="70" x="320" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fxGCELUNRGaq_iS7MBZG-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#000000);" value="Consulta" vertex="1">
+          <mxGeometry height="25" width="70" x="320" y="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
