@@ -1,0 +1,262 @@
+:root {
+    --rosa-claro: #f8e8ee;
+    --rosa-medio: #d98ba6;
+    --rosa-escuro: #8b4962;
+    --verde-claro: #edf3e9;
+    --texto: #343434;
+    --cinza: #6d6d6d;
+    --branco: #ffffff;
+    --borda: #eadde2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #fcfafb;
+    color: var(--texto);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    width: min(1100px, 92%);
+    margin: 0 auto;
+}
+
+.topo {
+    padding: 38px 0 34px;
+    background: var(--rosa-claro);
+    border-bottom: 4px solid var(--verde-claro);
+}
+
+.marca {
+    margin: 0 0 8px;
+    color: var(--rosa-escuro);
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(1.7rem, 4vw, 2.5rem);
+}
+
+.subtitulo {
+    margin: 8px 0 0;
+    color: #5e5055;
+}
+
+.conteudo {
+    padding-top: 30px;
+    padding-bottom: 48px;
+}
+
+.filtros {
+    margin-bottom: 34px;
+    padding: 24px;
+    background: var(--branco);
+    border: 1px solid var(--borda);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(80, 45, 58, 0.05);
+}
+
+h2 {
+    margin: 0 0 18px;
+    font-size: 1.35rem;
+}
+
+.form-filtros {
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.campo {
+    display: flex;
+    flex: 1 1 210px;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.campo label {
+    font-size: 0.92rem;
+    font-weight: 700;
+}
+
+input,
+select {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 1px solid #d8cbd0;
+    border-radius: 7px;
+    background: #fff;
+    color: var(--texto);
+    font: inherit;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid var(--rosa-medio);
+    outline-offset: 1px;
+}
+
+.botao {
+    min-height: 44px;
+    padding: 10px 22px;
+    border: 0;
+    border-radius: 7px;
+    background: var(--rosa-escuro);
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+}
+
+.botao:hover {
+    background: #71374e;
+}
+
+.limpar {
+    padding: 10px 4px;
+    color: var(--rosa-escuro);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.limpar:hover {
+    text-decoration: underline;
+}
+
+.cabecalho-resultados {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 18px;
+}
+
+.cabecalho-resultados h2 {
+    margin-bottom: 0;
+}
+
+.cabecalho-resultados span {
+    color: var(--cinza);
+    font-size: 0.9rem;
+}
+
+.grade-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card-produto {
+    overflow: hidden;
+    background: var(--branco);
+    border: 1px solid var(--borda);
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(80, 45, 58, 0.05);
+}
+
+.imagem-produto,
+.imagem-placeholder {
+    display: flex;
+    width: 100%;
+    height: 175px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    background: var(--verde-claro);
+}
+
+.imagem-placeholder {
+    color: #65725e;
+    font-size: 0.9rem;
+}
+
+.informacoes-produto {
+    padding: 17px;
+}
+
+.categoria-produto {
+    color: var(--rosa-escuro);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card-produto h3 {
+    margin: 7px 0;
+    font-size: 1.1rem;
+}
+
+.descricao {
+    min-height: 42px;
+    margin: 0 0 12px;
+    color: var(--cinza);
+    font-size: 0.9rem;
+}
+
+.preco {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.disponibilidade {
+    margin: 5px 0 0;
+    color: #53734b;
+    font-size: 0.85rem;
+}
+
+.sem-resultados {
+    padding: 32px 20px;
+    border: 1px dashed #d8cbd0;
+    border-radius: 10px;
+    background: #fff;
+    text-align: center;
+}
+
+.sem-resultados h3 {
+    margin-top: 0;
+}
+
+.sem-resultados p {
+    margin-bottom: 0;
+    color: var(--cinza);
+}
+
+.rodape {
+    padding: 20px 0;
+    background: var(--verde-claro);
+    color: #52604d;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.rodape p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .filtros {
+        padding: 18px;
+    }
+
+    .botao {
+        width: 100%;
+    }
+
+    .cabecalho-resultados {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
