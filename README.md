@@ -64,3 +64,39 @@ O acompanhamento será feito por meio da organização das etapas, definição d
 - **Perda de dados:** realizar backups periódicos do banco de dados.
 - **Produtos com disponibilidade incorreta:** atualizar frequentemente o status dos produtos.
 - **Sistema inoperável por falta de manutenção:** realizar manutenção preventiva e testes periódicos.
+
+
+## Primeiro incremento funcional
+
+A primeira implementação do sistema contempla a visualização e localização de produtos no catálogo.
+
+### Funcionalidades implementadas
+
+- Visualização dos produtos cadastrados.
+- Pesquisa de produtos por nome.
+- Filtro de produtos por categoria.
+- Consulta das informações armazenadas no banco de dados.
+
+### Tecnologias utilizadas
+
+- PHP
+- HTML
+- CSS
+- MySQL
+- XAMPP
+
+### Estrutura da implementação
+
+- `index.php`: página principal do catálogo.
+- `assets/`: arquivos de estilo.
+- `classes/`: classes Produto, Categoria, Catalogo e Cliente.
+- `config/`: configuração da conexão com o banco de dados.
+- `database/`: script SQL para criação das tabelas e dados de demonstração.
+
+### Execução local
+
+1. Colocar os arquivos do projeto em uma pasta dentro de `C:\xampp\htdocs\`.
+2. Iniciar Apache e MySQL pelo XAMPP.
+3. Importar o arquivo `database/catalogo_beleza.sql` pelo phpMyAdmin.
+4. Conferir a conexão no arquivo `config/conexao.php`.
+5. Acessar o catálogo pelo navegador, utilizando `http://localhost/NOME-DA-PASTA/`.
