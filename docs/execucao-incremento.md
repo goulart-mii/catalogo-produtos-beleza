@@ -28,3 +28,7 @@ A página apresenta os produtos cadastrados no banco de dados. A pesquisa por no
 ## Limites deste incremento
 
 Esta primeira versão implementa a consulta e a localização de produtos. As operações de cadastro, edição e exclusão do Administrador permanecem previstas para incrementos posteriores. Os produtos inseridos pelo script SQL são dados de demonstração.
+
+## Ajustes após a análise DFD e DD
+
+A documentação foi revisada, o primeiro incremento contempla a visualização e pesquisa de produtos. O cadastro, a edição e a exclusão serão desenvolvidos posteriormente.
