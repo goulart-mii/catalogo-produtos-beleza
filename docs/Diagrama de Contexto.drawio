@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="LVbJ92aJ8HuMTrVo3esV">
+    <mxGraphModel dx="3076" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SDYjSufGMiC0e5ugHWiZ-5" parent="1" style="whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CCCCCC);" value="" vertex="1">
+          <mxGeometry height="860" width="1670" x="-1070" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYjSufGMiC0e5ugHWiZ-10" edge="1" parent="1" source="SDYjSufGMiC0e5ugHWiZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=light-dark(#000000,#000000);entryX=0.25;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" x="0.1411" as="geometry">
+            <mxPoint x="-271.5" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDYjSufGMiC0e5ugHWiZ-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Administrador&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="260" width="260" x="-850" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYjSufGMiC0e5ugHWiZ-12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);" target="SDYjSufGMiC0e5ugHWiZ-6" value="">
+          <mxGeometry relative="1" x="-0.6846" as="geometry">
+            <mxPoint x="-335" y="417" as="sourcePoint" />
+            <mxPoint x="-505" y="414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDYjSufGMiC0e5ugHWiZ-16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=light-dark(#000000,#000000);" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-81" y="417" as="sourcePoint" />
+            <mxPoint x="281" y="264.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDYjSufGMiC0e5ugHWiZ-18" edge="1" parent="1" source="SDYjSufGMiC0e5ugHWiZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=light-dark(#000000,#000000);entryX=0.75;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" x="0.1001" as="geometry">
+            <mxPoint x="-144.5" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDYjSufGMiC0e5ugHWiZ-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Cliente&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="260" width="260" x="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYjSufGMiC0e5ugHWiZ-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;code&gt;Confirmação das operações&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="-600" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYjSufGMiC0e5ugHWiZ-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;code&gt;Dados e solicitações de produtos&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="249" x="-584" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYjSufGMiC0e5ugHWiZ-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;span&gt;Solicitação de consulta e pesquisa&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="249" x="-110" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYjSufGMiC0e5ugHWiZ-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Lista de produtos e resultados da pesquisa&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="249" x="-70" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYjSufGMiC0e5ugHWiZ-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;p&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;(0) Sistema de Catálogo de Produtos de Beleza&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="240" width="260" x="-340" y="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
