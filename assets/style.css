@@ -259,4 +259,13 @@ select:focus {
         flex-direction: column;
         gap: 5px;
     }
+
+        .imagem-produto,
+    .imagem-placeholder {
+        height: 145px;
+    }
+
+    .informacoes-produto {
+        padding: 14px;
+    }
 }
